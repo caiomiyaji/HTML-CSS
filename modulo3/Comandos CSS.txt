@@ -2,3 +2,25 @@ Comando para adidiconar imagem de fundo:
 body {
 	background-image: url('caminho da imagem');
 }
+
+
+
+
+Comando para mudar tamanho da imagem de background:
+body{
+	background-image: url('caminho imagem');
+	background-size: 100px 300px;
+}
+ordem background-size: largura > altura;
+
+
+
+
+Comando para configurar repetição da imagem de fundo:
+body{
+	background-image: url('caminho imagem');
+	background-repeat: no-repeat;
+}
+background-repeat aceita diversos valores.
+
+
