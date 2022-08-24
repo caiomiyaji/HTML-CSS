@@ -1,0 +1,134 @@
+Comando para CSS EXTERNO na tag Head:
+<link rel="stylesheet" href="nomeestilo.css">
+
+
+
+
+Comando INLINE para cor de fundo:
+style="background-color: nomecor;"
+
+
+
+Comando INTERNO para cor de fundo:
+<style>
+	body{
+		background-color: nomecor;
+	}
+</style>
+
+
+
+Comando EXTERNO para cor de fundo:
+body{
+	background-color: nomecor;
+}
+
+
+
+
+Comando INLINE para cor de fonte:
+style="color: nomecor;"
+
+
+
+Comando INTERNO para cor de fonte:
+<style>
+	h1{
+		color: nomecor;
+	}
+</style>
+
+
+
+Comando EXTERNO para cor da fonte:
+h1{
+	color: nomecor;	
+}
+
+
+
+
+Comando INLINE para tipo da fonte:
+style="font-family: nomefonte;"
+
+
+
+Comando INTERNO para tipo da fonte:
+<style>
+	body{
+		font-family: nomefonte;
+	}
+</style
+
+
+
+Comando EXTERNO para tipo da fonte:
+body{
+	font-family: nomefonte;
+}
+
+
+
+Comando INLINE para tamanho da fonte:
+style="font-size: tamanhoEtipotamanho;"
+
+
+
+Comando INTERNO para tamanho da fonte:
+<style>
+	h1{
+		font-size: tamanhofonteEtipotamanho;
+	}
+</style>
+
+
+
+Comando EXTERNO para tamanho fonte:
+h1{
+	font-size: tamanhofonteEtipotamanho;
+}
+
+
+Comando INLINE para alinhamento de texto:
+style="text-align: tipoalinhamento;"
+Ex: style"text-align: justify;"
+
+
+
+Comando INTERNO para alinhamento de texto:
+<style>
+	h2{
+		text-align: justify;
+	}
+</style>
+
+
+
+
+Comando EXTERNO para alinhamento de texto:
+h2{
+	text-align: justify;
+}
+
+
+
+
+Comando INLINE para decoração de texto:
+style="text-decoration: tipodecoração;"
+
+
+
+Comando INTERNO para decoração de texto:
+<style>
+	h1{
+		text-decoration: tipodecoração;
+	}
+</style>
+
+
+
+
+Comando EXTERNO para decoração de texto:
+h1{
+	text-decoration: tipodecoração;
+}

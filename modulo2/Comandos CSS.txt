@@ -1,0 +1,683 @@
+Comando para criar gradiente:
+Ex1:
+body{
+	background-image: linear-gradient(to right, codcor, codcor, codcor, codcor);
+}
+
+Ex2:
+body{
+	background-image: linear-gradient(90deg, color, codcor, codcor);
+	background-attachment: fixed;
+}
+
+Ex3:
+body{
+	background-image: linear-gradient(to top, codcor 10%, codcor, codcor);
+}
+
+Ex4:
+body{
+	background-image: radial-gradient(circle, codcor, codcor, codcor);
+	background-attachment: fixed;
+}
+
+
+
+
+Comando para criar um seletor Global nas CSS:
+*{
+	codigo
+}
+
+
+
+
+Comando para arredondar bordas:
+main{
+	border-radius: 10px;
+}
+
+
+
+
+Comando para adicionar sombra:
+main{
+	box-shadow: 5px 5px 15px codcor;
+}
+
+
+
+
+Comando para definir largura:
+main{
+	width: 600px;
+}
+
+
+
+
+Comando para definir padding:
+main{
+	padding: 10px;
+}
+
+
+
+
+Comando para centralizar automaticamente em tamanhos diferentes de tela:
+main{
+	margin: auto;
+}
+
+
+
+
+
+Comando para adicionar sombra no texto:
+h1{
+	text-shadow: 1px 1px 2px codcor;
+}
+
+
+
+
+Comando para definir alinhamento do texto:
+h1{
+	text-align: center;
+}
+
+
+
+
+Comando para definir altura:
+body{
+	height: 100%;
+}
+
+
+
+
+
+Comando para definir attachment:
+body{
+	background-attachment: fixed;
+}
+
+
+
+
+Comando para font-family de forma "segura" (safe fonts combinations):
+body{
+	font-family: fonte1, fonte2, fonte3 generica;
+}
+
+obs: dessa formma, caso o dispositivo nao tenha a fonte1, sera carregada a fonte2, caso nao tenha tambem a fonte2, ele carrega a fonte3 generica. 
+
+
+
+
+Comando para font-family que o navegador escolhea a fonte:
+body{
+	font-family: sans-serif;
+}
+
+Obs: dessa forma, o nagevador/dispositivo, vai carregar qualquer forma que esteja de acordo com a tipo de fonte colocado no css.
+
+
+
+
+Recomendaçao de padrao de font size:
+em ou px
+
+1emm = 1 vez o tamanho da fonte padrão.
+px = pixels
+
+obs: interessante usar o padrao 'em', pois ele se adapta melhor em diferentes tamanhos de tela, como tv e relogios
+
+
+
+
+Fontes com nome composto por mais de uma palavra:
+body{
+	font-family: 'Work Sans';
+}
+Obs: fontes compostas por mais de uma palavra, precisam ser mencionadas com aspas simples.
+
+
+
+
+Comando para peso da fonte:
+body{
+	font-weight: normal;
+}
+Obs: no font-weight, pode usar os seguintes valores:
+lighter, normal, bold, bolder
+
+Obs: o font-weight tambem aceita valores entre 100-900 (nao sao todas as fontes que possuem todos os valores)
+
+
+
+
+Comando para estilo da fonte:
+body{
+	font-style: italic;
+}
+
+
+
+
+Comando para sublinhado:
+body{
+	font-decoration: underline;
+}
+
+
+
+
+Comando para shorthand (diversos comandos em uma linha em ordem):
+body{
+	font: italic bolder 3em 'Work Sans', sans-serif;
+}
+Obs: A ordem deve ser sempre a seguinte:
+font-style > font-weight > font-size > font-family
+
+Obs: Caso a fonte nao contenha alguma config, basta omitila e seguir a ordem.
+
+
+
+
+Importar fontes do Google Fonts:
+-Inserir uma importação da fonte no documento CSS
+Ex:  @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');  
+
+Obs: adicionar esse import nas primeiras linhas do doc css, ou abaixo da tag <style> no css interno ao html.
+
+
+
+
+Adicionar fontes externas ao html:
+-Baixar a fonte em formato ttf, otf, ou outro suportado. Salvar na pasta do projeto, ou dentro de subspasta dentro do projeto.
+
+@font-face{
+	font-family: 'nome escolhido';
+	src: url('nome arquvio fonte') format('formato fonte'),
+	url(nome arquivo fonte outro formato') format('formato fonte');
+	font-weight: normal;
+	font-style: normal; 
+}
+
+font-family -> definir o nome para essa fonte ser chamada pelo css.
+
+Obs: Adicionar a regra @font-face na primeira linha do css, fora de selettores
+
+
+
+
+Comando para adidioncar indentação (espaço do paragrafo na primeira linha):
+p{
+	text-indent: 20px;
+}
+
+
+
+
+Comando para usar id em seleteores (aula 14 mod 2):
+-No arquivo HTML configurar da seguinte forma:
+<h1 id="principal">
+	Título
+</h1>
+
+-No arquivo CSS:
+h1#principal{
+	color: nomecor;
+}
+
+Obs: para definir um id no HTML, basta colocar o parâmetro 'id' e definir valor do id.
+
+id no HTML é igual # no CSS.
+
+Obs: So se pode definir um mesmo id para seletores uma única vez, no mesmo arquivo HTML
+
+
+
+
+Comando para add class no html e CSS:
+-No HTML:
+<h1 class="basico">
+	titulo
+</h1>
+
+-NO CSS:
+.basico{
+	color: nomecor;
+}
+
+class no HTML é igual . no CSS.
+
+Obs: A mesma classe pode ser definida para diferentes seletores diversas vezes.
+
+
+
+
+Comando para add multiplas classes por seletor:
+-NO HTML:
+<h1 class="basico intermediario">
+	titulo
+</h1>
+
+No CSS:
+.basico{
+	color: nomecor;
+}
+
+.intermetiario{
+	background-color: nomecor;
+}
+
+Obs: ao definir mais de uma classe para o mesmo seletor, não separar uma classe da outra por vírgula, apenas espaço.
+
+
+
+
+Hierarquia do padrao, id e class:
+
+padrao > class > id
+
+O id sobrepoem o padrao e a class.
+
+
+
+
+Comando para criar uma div:
+<div> conteudo </div>
+
+
+
+
+Comando para borda:
+div{
+	border: tamanho;
+}
+
+
+
+
+
+Comando de pseudo-class:
+div:hover{
+	background-color: green;
+}
+
+:   ->   pseudo-class
+hover   ->   quando o mouse passa em cima
+
+
+
+
+Comando para configurar CSS de um elemento dentro de um div:
+div > p{
+	background-color: red;
+}
+
+Obs: o sinal de > faz referencia a uma elemento filho de uma div, um elemento que está dentro de uma div.
+
+
+
+
+Comando pseudo-class para quando um site ja foi visitado:
+a:visited{
+	color: red;
+}
+
+Obs: :visited é uma pseudo-classe para quando um site ja foi visitado
+
+
+
+Comando pseudo-class para quando algo é clicado:
+a:active{
+	color: nomecor;
+}
+
+
+
+
+Pseudo-classes sao palavras que definem estados de elementos HTML
+
+
+
+
+Pseudo-elemento mexem no conteudo periferico de um elemento
+
+
+
+
+Comando com pseudo-elemento:
+a::after{
+	content: ' link';
+}
+
+Obs: este comando faz com que DEPOIS todo os links (a), apareça escrito "link"
+
+
+
+
+Para criar seletores personalizados:
+# = id
+. = class
+: = pseudo-class
+:: = pseudo-element
+> = children
+
+
+
+
+Tipos de Caixa CSS:
+Exemplos box-level:
+<div>
+<h1> - <h6>
+<p>
+<main>
+<header>
+<nav>
+<article>
+<aside>
+<footer>
+<form>
+<video>
+
+Exmeplos de inline-level:
+<span>
+<a>
+<code>
+<small>
+<strong>
+<em>
+<sup> -  <sub>
+<label>
+<button>
+<input>
+<select>
+
+Obs: Quando usar tags do tipo box-level, haverá uma quebra de linha para inseir o conteudo.
+
+Obs: Quando usar tags do tipo inline-level, não havera uma quebra de linha para inserir o conteudo. O conteudo será colocado na mesma linha que o conteudo anterior.
+
+
+
+
+Ordem correta para configurar margin:
+
+margin-top  > margin-right > margin-bottom > margin-left
+
+Obs: ao utilizar shorthand, seguir a mesma ordem, igual abaixo:
+body{
+	margin: 10px 10px 10px 10px;
+} 
+
+
+
+
+
+Comando para centralizar uma caixa:
+body{
+	margin: auto;
+}
+Obs: O auto faz com que o navegador calcule a margem automaticamente no centro
+
+
+
+
+
+Comando para adicionar um outline:
+body{
+	outline-width: 5px;
+	outline-style: solid;
+	outline-color: nomecor;
+}
+Obs: outline é como se fosse uma borda, porém do lado de fora da margin
+
+
+
+
+Comando shorthand margin?
+body{
+	border: 10px solid black;
+}
+Ordem: border-width > border-style  > border-color 
+
+
+
+Comando shorthand padding:
+body{
+	padding: 10px 10px 10px 10px;
+}
+Ordem: padding-top > padding-right > padding-bottom > padding-left
+
+
+
+
+Comando shorthand outline:
+body{
+	outline: 5px dashed aquamarine;
+}
+
+
+
+
+Comando para trasnformar um box-level em inline-level:
+body{
+	display: inline;
+}
+
+
+
+Comando para transformar um inline-level em box-level:
+body{
+	display: block;
+}
+
+
+
+
+Comando para transformar um inline em inline-block:
+body{
+	display: inline-block;
+}
+Obs: É um inline com algumas caracteristicas de block, como altura, largura, etc.
+
+
+
+
+Tags de agrupamento:
+
+- cabeçalho  >     <header> </header>
+
+- principal  >     <main> </main>
+
+- rodapé     >     <footer> </footer>
+
+- seção de links   >     <nav> </nav>
+
+- grupo de conteudo    >   <section> </section>
+
+- artigo     >     <article> </article>
+
+- aside      >     <aside> </aside>
+
+
+
+
+Comando shorthand de sombra:
+body{
+	box-shadow: 2px 2px 2px black;
+}
+Orderm: eixoX > eixoY > blur > spread > cor.
+
+
+
+
+Comando para borda arredondada shorthand:
+body{
+	border-radius: 10px 10px 10px 10px;
+}
+
+Orderm: top-felt  >  top-right  >  bottom-right  >  bottom-left 
+
+
+
+Comando borda arredondada com %:
+body{
+	border-radius: 50%;
+}
+Obs: Isso faz com que o elemento fique redondo
+
+
+
+Comando para borda com imagem:
+body{
+	border: 12px solid black;
+	padding: 10px;
+	border-image-source: url('nomearquivoIMG');
+	border-image-slice: 27;
+	border-image-repeat: repeat;
+}
+
+
+
+
+Comando para criar variaveis em CSS:
+:root{
+	--cor1: codcor;
+	--cor2: codcor;
+	--cor3: codcor;	
+
+	--fonte-padrao: nomefonte;
+}
+
+h1{
+	background-color: var(--cor0);
+	font-family: var(--fonte-padrao);
+}
+
+
+
+
+
+Comando para adicionar estilo a todos os elementos de forma global:
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+
+
+Comando para responsividade:
+main{
+	min-widht: 280px;
+	max-width: 800px;
+	margin: auto;
+}
+
+
+
+
+
+Comando para imagem responsiva:
+img{
+	width: 100%;
+}
+
+
+
+
+
+Comando para um delay na transição de um elemento no hover:
+a{
+	background-color: codcor1;
+	transition-duration: 0.5s;
+}
+
+a:hover{
+	background-color: codcor2;
+}
+
+
+
+
+Comando para configurar CSS de elementos dentro de elemento, sem usar o >:
+main p{
+	text-align: justify
+}
+
+Obs: Isto é diferente de usar o "main > p", pois ele pega todos os paragrafos que estao dentro do main, mesmo se o paragrafo estiver dentro de um elemento que está dentro do main.
+
+
+
+
+Comando para altura entre linhas:
+main p {
+	line-height: 2em;
+}
+
+
+
+
+
+Comando para mudar a posição da bolinhas de uma lista (dentro/fora):
+ul{
+	list-style-position: inside;
+}
+
+
+
+
+Comando para mudar a quantidade de colunas em uma lista:
+ul{
+	columns: 2;
+}
+
+Obs: muda a qntd de colunas que ums lista é mostrada no navegador[
+
+
+
+
+
+Comando para mudar o simbolo de uma lista (nao compativel com todos os navegadores):
+ul{
+	list-style-type: '\codemoji';
+}
+Obs: Este comando substitui a bolinha marcadora da lista pelo emoji escolhido.
+
+ul{
+	list-style-typ: '\codeemoji\00a0';
+}
+Obs:
+\00a0 e /0020 gera um espaçamento.
+
+
+
+
+
+
+Comando para fazer iframe de videos do youtube e vimeo responsivos:
+div.video{
+	background-color: black;
+	margin 0px -20px 30px -20px;
+	padding: 20px;
+	padding-bottom 56.8%;
+	position: relative;
+}
+
+div.video > iframe{
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	width: 90%;
+	height: 90%;
+}
+
+Obs: Envelopar o iframe do video em uma div, definir o position da div como relative, e o position do iframe como absolute e alterar demais configurações de padding, margin, top, left, width e height.
+

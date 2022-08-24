@@ -1,0 +1,322 @@
+Comando para adicionar um parágrafo:
+<br>
+
+
+
+Comando para add < e > em um texto:
+&lt;       -->  <
+&gt;       -->  >
+
+
+Comando para adicionar comentário:
+<!--  comentário  -->
+
+
+Comando para adicionar um ícone:
+&nome do icone;
+Ex:  &reg;
+     &copy;
+     &euro;
+
+
+
+Comando para adicionar um emoji:
+&#xcódigo do emoji;
+Ex:
+	&#x1F913;
+	&#x1f975;
+
+
+Comando para adicionar titulo:
+<h1> </h1>
+
+
+
+Comando para adicionar img:
+<img src=imagename.png" alt="ImageAlternativeName">
+
+
+
+Comando para adicionar favicon. Adicionar na tag Head:
+<link rel="shortcut icon" href="iconname.ico" type="image/x-icon">
+
+
+
+Comandos de titulo:
+<h1> </h1>    - Título 1
+<h2> </h2>    - Subtitulo 1
+<h3> </h3>    - Subtitulo 2
+<h4> </h4>    - Subtitulo 3
+<h5> </h5>    - Subtitulo 4
+<h6> </h6>    - Subtitulo 5
+<p> </p>      - Parágrafo
+
+
+
+
+Comando para destacar endereço:
+<address> endereço aqui </address>
+
+
+
+Comando para texto em negrito:
+<b> texto aqui </b>    -nao semantica, pode ser que fique obsoleta
+<strong> texto aqui </strong>    - semantica, indicado usar este
+
+
+
+Comando para texto em italico, ou enfase (emphasis):
+<i> texto aqui </i>   - nao semantica, pode ficar obsoleta
+<em> texto aqui </em>  -semantica, indicado usar
+
+
+
+Comando para adicionar tag a uma texto que nao possui tag:
+Selecionar o pedaço do texto, depois aperta cntrl + shift + p. Selecionar a opção Wrap with abbreviation, e depois inserir a tag desejada.
+
+
+
+
+Comando para um texto marcado:
+<mark> texto aqui </mark>
+
+
+
+Comando para letras pequenas:
+<small> texto aqui </small>
+
+
+
+Comando para texto excluido:
+<del> texto aqui </del>
+
+
+
+Comando para texto sublinhado, ou inserido:
+<ins> texto aqui </ins>
+
+
+
+Comando para texto sobrescrito:
+<sup> texto aqui </sup>
+Ex: x²+30
+
+
+
+Comando para texto subescrio:
+<sub> texto aqui </sub>
+Ex: H2O
+
+
+
+Comando para deixar as letras com a msm largura/código-fonte (mono espaçada, usada quando quiser que um código fique igual no editor):
+<code> texto aqui </code>
+
+
+
+Comando para deixar o texto igual no editor/pré-formatado:
+<pre> texto aqui </pre>
+
+
+
+Comando para texto em citação simples:
+<q> texto aqui </q>
+Result: "texto aqui"
+
+
+
+Comando para citação completa:
+<blockquote cite="url da citação"> 
+texto aqui 
+</blockquote>
+
+
+
+
+Comando para abreviar texto:
+<abbr tittle="Significado do texto"> 
+texto aqui 
+</abbr>
+
+
+
+Comando para inverter o texto:
+<bdo dir="rtl"> Texto aqui </bdo>
+Result: iuqa otxeT
+
+
+
+
+Comando para criar listas ordenadas:
+<ol type="1">       -- tipos: 1, A, a, I, i
+	<li> Acordar </li>
+	<li> Escovar dente </li>
+	<li> Tomar café </li>
+	<li> Ir ao trabalho </li>
+</ol>
+Result:
+1. Acordar
+2. Escovar dente
+3. Tomar café
+4. Ir ao trabalho
+
+
+
+Comando para criar listas nao ordenadas:
+<ul type="disc">      -- tipos: disc, circle, square
+	<li> Pao </li>
+	<li> Leite </li>
+	<li> Tomate </li>
+</ul>
+
+
+
+Comando para adicionar links externos, e abrir na msm aba:
+<a href="link externo aqui">texto que irá virar link aqui</a>
+
+<a> = ancora
+
+
+
+Comando para adidioncar link externo, e abrir em outra aba:
+<a href="link externo aqui" target="_blank" rel="external">texto que irá virar link aqui</a>
+
+rel = relativo
+
+
+
+Comando para abrir pagina interna que esta na msm pasta:
+<a href" nome do arquivo da outra pagina" rel="next"> texto que virará link</a>
+
+
+
+Comando para voltar a página anterior:
+<a href=" nome do arquivo da pagina anterior" rel="prev"> texto que vira link</a>
+
+
+
+
+Comando para abrir site que voce nao da Aval, ou seja, que voce nao quer que o google faca indexacao:
+<a href="link do site" target="_blank" rel"nofollow"> texto que vira link </a>
+
+
+
+Comando para abrir pagina interna em outra pasta:
+<a href=" nome da pasta/nome do arquivo da pagina" target="_self" rel="next"> texto que vira link </a>
+
+
+
+Comando para voltar a uma pagina que esta na pasta anterior:
+<a href=" ../nome do arquivo" target="_self" rel="prev"> texto que vira link </a>
+
+
+
+Comando para links de download em pdf:
+<a href="pasta do arquivo/nome do arquivo" download="nome do arquivo" type="application/pdf"> texto que vira link </a>
+
+
+
+Comando para links de download em Zip:
+<a href="pasta arquivo/nome do arquivo" download="nome do arquivo" type="application/zip">
+texto que vira link </a>
+
+
+
+Comando para avisar ao navegador qual o idioma do destino no link:
+<a href="link destino" hreflang="en"> texto vira link </a>
+
+
+
+Comando para adicionar imagens com tamanho dinamico:
+<picture>
+	<source media="(max-width: 750px)" srcset="nome imagem" type="image/tipo da imagem">
+	<source media="(max-width: 1000px)" srcset="nome imagem" 	type="image/tipo da imagem">
+	<img src="nome imagem" alt"alternativo">
+</picture>
+
+<picture> </picture> --> possibilita adicionar mais de uma imagem no mesmo espaço
+
+source:mediatype --> serve para trocar imagens de acordo com a largura da tela do dispositivo
+
+
+
+
+Comando para adicionar audio no site (mais de um tipo de audio, por conta de navegadores que nao suportam mp3):
+<audio preload="metadata" controls>
+	<source src="arquivo de audio.mp3" type="audio/mpeg">
+	<source src="arquivo de audio.ogg" type="audio/ogg">
+</audio>
+
+Usar formato wav não é recomendado, por ser mais pesado.
+
+Para criar um loop no reprodutor do audio, basta adidioncar a tag loop na tag audio.
+Ex: <audio preload="metadata" controls loop> </audio>
+
+
+
+Comando para inserir videos hospedado localmente:
+<video width="500px" poster="arquivo imagem" controls>
+	<source src="arquivo" type="video/tipo do arquivo">
+	<source src="arquivo" type="video/outro tipo">
+	<source src="arquivo" type="video/outrotipo">
+	<p>seu navegador nao é compativel com videos</p>
+</video>
+
+poster= imagem de capa do video
+controls= comando para mostrar os controles de videos
+
+
+
+Comando para add videos hospedados no Youtube:
+
+<iframe width="560" height="315" src="url video" tittle="titulo video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; enrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+Comando para add videos hospedados no Vimeo:
+
+<iframe src="url do video" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+
+
+Comando para criar uma linha horizontal:
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
