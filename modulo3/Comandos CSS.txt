@@ -121,3 +121,22 @@ h1{
 	text-transform: lowercase;
 }
 Obs: tranforma todas as letras em minusculas
+
+
+
+
+
+Comando para tranformar todas as letras em maiusculas, porm com as iniciais maiores q as demais:
+h1{
+	font-variant: small-caps;
+}
+
+
+
+
+Comando para fazer um texto mudar de tmanaho de acordo com o tamanho da Viewport Width:
+h1{
+	font-size: 10vw;
+}
+Obs: vw = Viewport Width. 
+10vw  =  10% da viewport width.
