@@ -109,3 +109,15 @@ Exdmeplo de como para criar tabela grande:
 </table>
 
 Obs: o parâmetro scope serve para informar ao navegador onde estao os dados do titulo. O valor de "col", quer dizes que estao na coluna do titulo, o valor de "row", quer dizer que os dados estao na linha do titulo
+
+
+
+
+
+Comnando para mesclagem de celulas:
+<td colspan="qntdcolunas">B</td>
+
+colspan  >  faz com que uma celula ocupe duas colunas
+
+<td rowspan="qntdlinhas">A</td>
+rowspan  >  faz com que uma celula ocupe duas linhas
