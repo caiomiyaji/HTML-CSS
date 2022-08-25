@@ -24,3 +24,16 @@ body{
 background-repeat aceita diversos valores.
 
 
+
+
+
+Comando para mudar a posição da imagem de fundo:
+div{
+	background-position: left top;
+}
+Ordem: eixoX eixoY
+Opções eixoX : left, center, right
+
+Opções eixoY : top, center, bottom.
+
+
