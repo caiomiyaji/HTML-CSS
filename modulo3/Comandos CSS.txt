@@ -163,3 +163,20 @@ td{
 	text-align: center;
 	vertical-align: middle;
 }
+
+
+
+
+
+Comando para fazer efeito zebrado em uma tabela:
+tbody > tr:nth-child(2n){
+	background-color: lightgray;
+}
+
+nth-child(), pode receber tambem os valores em impar ou par:
+
+nth-child(odd)      ou       nth-child(even)
+
+nth-child(), pode receber tambem outros valores numericos, alem de 2n:
+
+nth-child(3n), por exemplo, separaria as linhas de 3 em 3.
