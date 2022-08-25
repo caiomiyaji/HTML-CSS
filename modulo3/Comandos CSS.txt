@@ -77,3 +77,32 @@ body{
 	background-size: cover;
 }
 Ordem: color > image > position > repeat > size (nao esta funcionando) > attachment
+
+
+
+
+
+Comando para centralizar um elemento na horizontal e na vertical:
+section#container{
+	position: relative;
+	height 96vh;
+	padding: 10px;
+	background-color: purple;
+}
+
+article#conteudo{
+	position: absolute;
+	height: 200px;
+	width: 400px;
+	background-color: yellow;
+
+	left 50%;
+	top 50%;
+
+	transform: translate (-50%, -50%);
+}
+
+Obs: no container é necessário definir o "position" como "relative", e no conteudo, definir o "position" como "absolute".
+
+Ao definir o conteudo como "absolute", se torna possível configurar as posições de "left" e o "top" do conteudo.
+Após definir "left" e "top" como 50%, é necessário realizar uma transformação com a função "transform" de valor "translate", e definir o valor como -50% para eixoX e -50% para eixoY, respectivamente.
