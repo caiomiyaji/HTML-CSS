@@ -140,3 +140,9 @@ h1{
 }
 Obs: vw = Viewport Width. 
 10vw  =  10% da viewport width.
+
+
+
+
+Comando para fazer parallax:
+Utilizar "background-size" como "cover" e background-attachment como "fixed", no elemento que contem a imahgem
