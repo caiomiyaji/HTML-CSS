@@ -57,3 +57,23 @@ Obs: tambem é possível colocar o valor em porcentagem, inserindo largura e alt
 
 ex:    background-size: 100% 100%;
 
+
+
+
+
+Comando para fixar background image:
+body{
+	background-size: cover;
+	background-attachment: fixed;
+}
+Obs: o cover vai fazer a imagem ficar sobre todo o body, e o attachment fixed, irá fazer que mesmo quando der scroll na página, a imagem continue fixa em todo o body.
+
+
+
+
+Background shorthand:
+body{
+	background: codcor url(cmainhoimagem) center center no-repeat fixed
+	background-size: cover;
+}
+Ordem: color > image > position > repeat > size (nao esta funcionando) > attachment
