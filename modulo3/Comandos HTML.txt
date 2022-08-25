@@ -46,3 +46,64 @@ A1 B1 C1
 A2 B2 C2
 A3 B3 C3
 A4 B4 C4
+
+
+
+
+
+Anatomia de tabelas grandes:
+
+<!--
+        Anatomia para tabelas grandes
+        table
+            thead = cabeça tabela
+                tr 
+                    td, th
+            tbody
+                tr
+                    td, th
+            tfoot
+                tr
+                    td, th
+-->
+
+
+
+
+
+Exdmeplo de como para criar tabela grande:
+
+<table>
+	<thead>
+		<tr>
+			<th>Estado</th>
+			<th>População</th>
+		</tr>
+	</thead>
+		
+	<tbody>
+		<tr>
+			<td>São Paulo</td>
+			<td>46 649 132</td>
+		</tr>
+
+		<tr>
+			<td>Minas Gerais</td>
+			<td>21 411 923</td>
+		</tr>
+
+		<tr>
+			<td>Rio de Janeiro</td>
+			<td>17 463 349</td>
+		</tr>
+	</tbody>
+
+	<tfoot>
+		<tr>
+			<th>Total de habitantes</th>
+			<td>210 147 125</td>
+		</tr>
+	</tfoot>
+</table>
+
+Obs: 
