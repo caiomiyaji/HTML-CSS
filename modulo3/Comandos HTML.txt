@@ -1,0 +1,48 @@
+Tag de tabela:
+<table> </table>
+
+
+
+Hierarquia de tabela (simples):
+
+table = tabela
+	table row = linha de tabela
+		table header = cabeçalho de tabela
+		table data = dado de tabela
+
+
+
+
+Comando para criar tabela:
+<table>
+	<tr>
+		<td>A1</td>
+		<td>B1</td>
+		<td>C1</td>
+	</tr>
+
+	<tr>
+		<td>A2</td>
+		<td>B2</td>
+		<td>C2</td>
+	</tr>
+
+	<tr>
+		<td>A3</td>
+		<td>B3</td>
+		<td>C3</td>
+	</tr>
+
+	<tr>
+		<td>A4</td>
+		<td>B4</td>
+		<td>C4</td>
+	</tr>
+</table>
+
+Resultado:
+
+A1 B1 C1
+A2 B2 C2
+A3 B3 C3
+A4 B4 C4

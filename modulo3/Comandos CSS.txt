@@ -146,3 +146,12 @@ Obs: vw = Viewport Width.
 
 Comando para fazer parallax:
 Utilizar "background-size" como "cover" e background-attachment como "fixed", no elemento que contem a imahgem
+
+
+
+
+Comando para juntar dados de uma tabela:
+table{
+	border-collapse: collapse;
+}
+
