@@ -180,3 +180,19 @@ nth-child(odd)      ou       nth-child(even)
 nth-child(), pode receber tambem outros valores numericos, alem de 2n:
 
 nth-child(3n), por exemplo, separaria as linhas de 3 em 3.
+
+
+
+
+
+Comando para criar cabeçalho fixo em tabelas quando der scroll na pagina:
+table{
+	position: relative;
+}
+
+thead > tr > th{
+	background-color: codcor;
+	position: sticky;
+	top: -1px;
+}
+
