@@ -56,9 +56,10 @@ Anatomia de tabelas grandes:
 <!--
         Anatomia para tabelas grandes
         table
+            caption = Legenda da tabela 
             thead = cabeça tabela
                 tr 
-                    td, th
+                    td, th = titulo da coluna
             tbody
                 tr
                     td, th
@@ -74,10 +75,11 @@ Anatomia de tabelas grandes:
 Exdmeplo de como para criar tabela grande:
 
 <table>
+	<caption>População das Unidades Federativas</caption>
 	<thead>
 		<tr>
-			<th>Estado</th>
-			<th>População</th>
+			<th scope="col">Estado</th>
+			<th scope="col">População</th>
 		</tr>
 	</thead>
 		
@@ -100,10 +102,10 @@ Exdmeplo de como para criar tabela grande:
 
 	<tfoot>
 		<tr>
-			<th>Total de habitantes</th>
+			<th scope="row">Total de habitantes</th>
 			<td>210 147 125</td>
 		</tr>
 	</tfoot>
 </table>
 
-Obs: 
+Obs: o parâmetro scope serve para informar ao navegador onde estao os dados do titulo. O valor de "col", quer dizes que estao na coluna do titulo, o valor de "row", quer dizer que os dados estao na linha do titulo
