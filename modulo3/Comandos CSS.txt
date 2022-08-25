@@ -155,3 +155,11 @@ table{
 	border-collapse: collapse;
 }
 
+
+
+
+Comando para alinhar um dado de uma tabela na vertical e na horizontal:
+td{
+	text-align: center;
+	vertical-align: middle;
+}
