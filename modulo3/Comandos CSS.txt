@@ -26,7 +26,6 @@ background-repeat aceita diversos valores.
 
 
 
-
 Comando para mudar a posição da imagem de fundo:
 div{
 	background-position: left top;
@@ -36,4 +35,25 @@ Opções eixoX : left, center, right
 
 Opções eixoY : top, center, bottom.
 
+
+
+
+Comando para colocar a altura de uma elemento igual a 100% da viewport:
+body{
+	height 100vh;
+}
+
+
+
+Comando para alterar o tamanho do background:
+body{
+	height 100vh;
+	background-size: cover;
+}
+Valores possiveis:
+contain, cover, auto.
+
+Obs: tambem é possível colocar o valor em porcentagem, inserindo largura e altura, respectivamente
+
+ex:    background-size: 100% 100%;
 
