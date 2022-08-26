@@ -1,0 +1,32 @@
+Significado de Iframe:
+Iframe significa inline frame = quadro em linha
+
+
+
+Comando para criar iframe:
+
+<iframe src="linksite" frameborder="0"></iframe>
+
+
+
+Comando para quando o navegador nao é compativel com iframes:
+
+<iframe src="linksite" frameborder="0">
+
+<a> href="linksite" target="_blank">site</a>
+
+</iframe>
+
+Obs: o codigo acima mostrará o link do site, caso o navegador nao seja compativel com o uso de iframes
+
+
+
+
+Comando para quando quiser que o iframe nao faça scrolling:
+
+<iframe src="linksite" frameborder="0" scrolling="no">
+
+</iframe>
+
+
+
