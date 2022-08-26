@@ -137,3 +137,28 @@ col = quando o th é referente a apenas uma coluna
 
 rowgroup =  quando o th é referente a mais de uma linha
 colgroup = quando o th é referente a mais de uma coluna
+
+
+
+
+
+Comando colgroup:
+
+<colgroup>
+	<col class="cnome">
+	<col class="csexo">
+</colgroup>
+
+Obs: Esta tag serve para quando quiser mudar a cor de todas as celulas de uma coluna específica, por exemplo.
+
+
+
+
+Comando colgroup com span:
+
+<colgroup>
+	<col class="cnome" span="2">
+	<col class="csexo">
+</colgroup>
+
+Obs: O colgroup com span, faz com que nao somente a coluna da classe "cnome" seja afetada, mas tambem a coluna ao lado.
