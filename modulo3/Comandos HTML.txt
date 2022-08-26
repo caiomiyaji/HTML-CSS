@@ -121,3 +121,19 @@ colspan  >  faz com que uma celula ocupe duas colunas
 
 <td rowspan="qntdlinhas">A</td>
 rowspan  >  faz com que uma celula ocupe duas linhas
+
+
+
+
+
+Comando para mostrar ao navegador o escopo do th:
+<th scope="row"> A </th>
+<th scope="col"> A </th>
+<th scope="colgroup"> A </th>
+<th scope="rowgroup"> A </th>
+
+row = quando o th é referente a apenas uma linha
+col = quando o th é referente a apenas uma coluna
+
+rowgroup =  quando o th é referente a mais de uma linha
+colgroup = quando o th é referente a mais de uma coluna
