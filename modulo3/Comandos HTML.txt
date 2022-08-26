@@ -162,3 +162,25 @@ Comando colgroup com span:
 </colgroup>
 
 Obs: O colgroup com span, faz com que nao somente a coluna da classe "cnome" seja afetada, mas tambem a coluna ao lado.
+
+
+
+
+Comando para fazer uma tabela com scroll:
+HTML:
+<div id="container">
+	<table>
+		<tr>
+			<td>dado</td>
+			<td>dado</td>
+		</tr>
+	</table>
+</div>
+
+CSS:
+
+div#container{
+	overflow-x: auto;
+}
+
+Obs: Ao inserir uma tabela dentro de uma div, e definir a div como "overflow-x: auto", o navegador irá criar um scroll na tabela quando necessário.
