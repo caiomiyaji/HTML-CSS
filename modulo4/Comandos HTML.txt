@@ -30,3 +30,14 @@ Comando para quando quiser que o iframe nao faça scrolling:
 
 
 
+
+Comando para abrir página em iframe com name e target:
+<a href="linkpagina" target="frame">nomepagina</a>
+
+<iframe name="frame" src="" frameborder="0">
+
+</iframe>
+
+Obs: definir o parametro "name" no iframe para usar no target do link que for abrir no iframe
+
+
