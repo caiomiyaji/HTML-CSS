@@ -78,3 +78,23 @@ Comando para criar input simples:
 	<p>Sobrenome: <input type="text" name="sobrenome" id="sobrenome"></p>
 	<p><input type="submit" value="Enviar"></p>
 </form>
+
+
+
+
+Comando para desligar o autocomplete dos inputs de um formulario:
+<form autocomplete="off">
+	inputs
+</form>
+
+
+
+
+Comando para criar fromularios com label:
+<form action="cadastro.php" autocomplete="off">
+	<p><label for="inome">Nome: </label>
+		<input type="text" name="nome" id="inome"></p>
+	<p><label for="isobrenome">Sobrenome:</label>
+		<input> type="text" name="sobrenome" id="isobrenome"></p>
+	<p><input type="submit" value="Enviar"></p>
+</form>
