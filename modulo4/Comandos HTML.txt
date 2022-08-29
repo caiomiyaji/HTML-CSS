@@ -41,3 +41,10 @@ Comando para abrir página em iframe com name e target:
 Obs: definir o parametro "name" no iframe para usar no target do link que for abrir no iframe
 
 
+
+
+
+Comando para inserir html cru no iframe:
+
+<iframe srcdoc="<h1>titulo</h1><p>texto</p>"> </iframe>
+
