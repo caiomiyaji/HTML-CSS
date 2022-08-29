@@ -48,3 +48,15 @@ Comando para inserir html cru no iframe:
 
 <iframe srcdoc="<h1>titulo</h1><p>texto</p>"> </iframe>
 
+
+
+
+Comando para deixar o iframe mais seguro ao máximo:
+<iframe src="linksite" sandbox="sandbox" referrerpolicy="no-referrer">
+
+</iframe>
+
+"sandbox" bloqueia tudo
+referrerpolicy = no-referrer bloqueia a captura de dados 
+
+Obs: é possivel utilizar outros valores no parametro sandbox e no referrerpolicy, porém tomar cuidado para permitir apenas o necessário
