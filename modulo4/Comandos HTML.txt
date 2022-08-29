@@ -60,3 +60,9 @@ Comando para deixar o iframe mais seguro ao máximo:
 referrerpolicy = no-referrer bloqueia a captura de dados 
 
 Obs: é possivel utilizar outros valores no parametro sandbox e no referrerpolicy, porém tomar cuidado para permitir apenas o necessário
+
+
+
+
+
+É possivel adicionar iframes do google maps, do vimeo, do waze, do powerpoint, etc  -  (aula 9 do mod4)
