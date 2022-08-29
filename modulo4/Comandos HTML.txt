@@ -66,3 +66,15 @@ Obs: é possivel utilizar outros valores no parametro sandbox e no referrerpolic
 
 
 É possivel adicionar iframes do google maps, do vimeo, do waze, do powerpoint, etc  -  (aula 9 do mod4)
+
+
+
+
+
+Comando para criar input simples:
+
+<form>
+	<p>Nome: <input type="text" name="nome" id="nome"></p>
+	<p>Sobrenome: <input type="text" name="sobrenome" id="sobrenome"></p>
+	<p><input type="submit" value="Enviar"></p>
+</form>
