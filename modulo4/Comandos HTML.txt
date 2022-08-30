@@ -165,3 +165,46 @@ Comando para indicar ao navegador qual o tipo do input, se é nome, senha, ender
 	</p>
 
 Obs: é preciso deixar o autocomplete como "on".
+
+
+
+
+Comando para minimo e maximo valor no input number:
+<label for="imedia">Média</label>
+<input type="number" name="media" id="imedia" min="0" max="10">
+
+
+
+
+Comando para definir de quanto em quanto aceitar em um input de numero:
+<label for="imedia">Média</label>
+<input type="number" name="media" id="imedia" step="0.1>
+
+
+
+
+
+Comando para deixar o input com um valor pré definido:
+<label for="imedia">Média</label>
+<input type="number" name="media=" id="imedia" value="5">
+
+Obs: O parametro value, sobrepoem o placeholder.
+
+
+
+
+Comando para input de mes:
+<label for="imes">Mês</label>
+<input type="month" name="mes" id="imes">
+
+
+
+Comando para input de dia:
+<label for="idia">Dia da prova</label>
+<input type="date" name="dia" id="idia" value="2022-07-16">
+
+
+
+Comando para input de hora:
+<label for="itime">Hora da prova</label>
+<input type="time" name="time" id="itime">
