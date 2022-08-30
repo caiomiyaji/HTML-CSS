@@ -271,3 +271,28 @@ Comando de formulario completo simples:
             </p>
         </fieldset>
     </form>
+
+
+
+
+Comando para checkbox input:
+
+<input type="checkbox" name="esfut" id="iesfut"><label for="iesfut">Futebol</label>
+
+
+
+Comando para radio input:
+
+<input type="radio" name="sexo" id="isxmas"> <label for="isxmas" value="M">Masculino</label>
+
+<input type="radio" name="sexo" id="isxfem"> <label for="isxfem" value"F">Feminino</label>
+
+Obs: utilizar os mesmo "name" para inputs de radio. Isto é para qe possa desmarcar o radio input.
+
+
+
+
+Comando para iniciar um input de chekcbox ou radio como marcado:
+<input type="checkbox" name="esbas" id="iesbas" checked><lable for="iesbas">Basquete</label>
+
+"checked" faz com que um checkbox ou radio inicie marcado
