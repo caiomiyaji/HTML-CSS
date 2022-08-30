@@ -233,6 +233,16 @@ Obs: pattern > usar regex para formato de telefone
 
 
 
+Comando de tag semantica para agrupar formularios:
+<form>
+	<fieldset>
+		<legend>Dados Pessoais</legend>
+		<p>
+			<label for="inome">Nome</label>
+			<input type="text" name="nome" id="inome">
+		</p>
+	</fieldset>
+</form>
 
 
 Comando de formulario completo simples:
