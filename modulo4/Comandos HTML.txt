@@ -116,3 +116,52 @@ Ex:
 <form action= "cadastro.php" method="GET" autocomplete="off"> </form>
 
 <form action="cadastro.php" method="POST autocomplete="off"> </form>
+
+
+
+
+Comando para input de senha:
+<label for="isen">Senha: </label>
+<input type="password" name="sen" id="isen">
+
+
+
+
+Comando de input reset:
+<input type="reset" value="Limpar">
+
+
+
+
+Comando para tornar obrigatório o prenchimento de um input:
+<input type="text" name="=usu" id="iusu required>
+
+
+
+
+Comando para minimo e maximo de caracteres em um input:
+<input type="password" name="sen" id="isen" minlength="8" maxlength="15">
+
+
+
+
+Comando para tamanho do input pelo html:
+<input type="text" name="usu" id="iusu" size="10">
+
+
+
+
+Comando para placeholder:
+<input type="text" name="usu" id="usu" placeholder="Nome do usuário">
+
+
+
+Comando para indicar ao navegador qual o tipo do input, se é nome, senha, endereço, etc. Isto facilita para que o navegador utilize o autocomplete de forma certeira:
+
+<form action="cadastro.php" method="post" autocomplete="on">
+	<p>
+		<label for="iusu">Usuário:</label>
+		<input type="text" name="usu"                                                  id="iusu"autocomplete="username">
+	</p>
+
+Obs: é preciso deixar o autocomplete como "on".
