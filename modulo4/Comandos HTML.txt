@@ -208,3 +208,8 @@ Comando para input de dia:
 Comando para input de hora:
 <label for="itime">Hora da prova</label>
 <input type="time" name="time" id="itime">
+
+
+
+
+Obs: Inputs tem comportamentos diferentes em navegadores diferentes e versoes de navegadores diferentes. logo, é preciso sempre conferir em varios navegadores diferentes. Com javascript é possivel criar os proprios controles de formularios.
