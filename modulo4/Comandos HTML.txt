@@ -321,3 +321,71 @@ Comando para input de files:
 obs: Quando usar o input de file, utilizar o methos POST de formulario, porque provavelmente vai ter mais de 3000bytes
 
 
+
+
+Comando para "dropdown" em HTML:
+<label for="iest">Estado</lable>
+<select name="estado" id="iest">
+	<option value="MG">Minas Gerais</option>
+	<option value="RJ">Rio de Janeiro</option>
+	<option value="SP">São Paulo</option>
+</select>
+
+
+
+Comando para dropdown separado por categorias:
+<label for="iest">Estado</lable>
+<select name="estado" id="iest">
+	<optgroup label="Região Sudeste">
+		<option value="MG">Minas Gerais</option>
+		<option value="RJ">Rio de Janeiro</option>
+		<option value="SP">São Paulo</option>
+	</optgroup>
+	<optgroup label="Região Nordeste">
+		<option value="MA">Maranhão</option>
+		<option value="PE">Pernambuco</option>
+		<option value="RN">Rio Grande do Norte</option>
+	</optgroup>
+</select>
+
+
+
+
+Comando para dropdown com valor inicial pre-definido:
+<label for="iest">Estado</lable>
+<select name="estado" id="iest">
+	<optgroup label="Região Sudeste">
+		<option value="MG">Minas Gerais</option>
+		<option value="RJ">Rio de Janeiro</option>
+		<option value="SP" selected>São Paulo</option>
+	</optgroup>
+	<optgroup label="Região Nordeste">
+		<option value="MA">Maranhão</option>
+		<option value="PE">Pernambuco</option>
+		<option value="RN">Rio Grande do Norte</option>
+	</optgroup>
+</select>
+
+
+
+
+
+Comando para dropdown que possibilita digitar valor:
+
+<label for="iprof">Profissão</label>
+<input type="text" name="prof" id="iprof" list="lstprof">
+<datalist id="lstprof">
+	<option value="ADM">Administrador</option>
+	<option value="CONT">Contabislista</option>
+	<option value="DEV">Desenvolvedor</option>
+	<option value="PROF">Professor</option>
+</datalist>
+
+Obs: o id do datalist deve ser mencionado no parametro "list" do input.
+
+
+
+
+Comando para area de texto "multiline input":
+<label for="imsg">Mensagem</label><br>
+<textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
