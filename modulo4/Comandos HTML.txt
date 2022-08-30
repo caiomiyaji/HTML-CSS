@@ -98,3 +98,21 @@ Comando para criar fromularios com label:
 		<input> type="text" name="sobrenome" id="isobrenome"></p>
 	<p><input type="submit" value="Enviar"></p>
 </form>
+
+
+
+
+
+Tipo de metodos de envio de formularios:
+métodos:
+
+GET (padrao) >  os parametros sao exibidos na url. O GET suporta até 3000bytes, se for passar dados maiores que isso, usar o POST.
+
+POST  >  Os parametros nao aparecem na url, mas isso nao faz dele um metodo mais seguro, pois é possivel ver os dados através do inspecionar > networks. Usar quando for tranferir dados.
+
+Obs:Usar esses metodos apenas quando for dados nao sensiveis. Caso solicite senhas, endereções, etc, estudar sobre https.
+
+Ex:
+<form action= "cadastro.php" method="GET" autocomplete="off"> </form>
+
+<form action="cadastro.php" method="POST autocomplete="off"> </form>
