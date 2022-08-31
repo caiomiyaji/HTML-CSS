@@ -474,3 +474,5 @@ na tag <head>:
 <link rel="stylesheet" href="estilos/style.css" media="all">
 <link rel="stylesheet" href="estilos/retrato.css" media="screen and (orientation: portrait)">
 <link rel="stylesheet" href="estilos/paisagem.css" media="screen and (orientation: landscape)">
+
+Obs: Nas CSS, configurar na retrato e paisagem, somente as configurações que sao diferentes. As iguais, configurar na CSS principal.
