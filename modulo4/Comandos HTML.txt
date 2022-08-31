@@ -567,3 +567,17 @@ Nas CSS's media-query:
 	CSS telas grandes
 
 }
+
+
+
+
+
+Comando para inserir icones do google:
+
+na tag head:
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+no body:
+
+<span class="material-icons">menu</span>
