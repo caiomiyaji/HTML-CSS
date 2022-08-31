@@ -459,7 +459,7 @@ Obs:Media Query é a junção de Media Type (tipo de midia) e Media Feature (car
 
 
 
-Comando para definir diferentes CSS para cada Media Type (impressora, tela, etc):
+Comando para definir diferentes CSS para cada Media Type (impressora, tela, etc) de forma separada:
 na tag <head>:
 
 <link rel="stylesheet" href="estilos/tela.css" media="screen">            ->   CSS que será aplicado a telas
@@ -468,7 +468,7 @@ na tag <head>:
 
 
 
-Comando para definir CSS para media features (orientação do dispositivo):
+Comando para definir CSS para media features (orientação do dispositivo em pé/deitado) de forma separada:
 
 na tag <head>:
 <link rel="stylesheet" href="estilos/style.css" media="all">
@@ -476,3 +476,56 @@ na tag <head>:
 <link rel="stylesheet" href="estilos/paisagem.css" media="screen and (orientation: landscape)">
 
 Obs: Nas CSS, configurar na retrato e paisagem, somente as configurações que sao diferentes. As iguais, configurar na CSS principal.
+
+
+
+
+Comando para Media Feature no Style do HTML:
+<style>
+@media all{
+
+	CSS GERAL
+
+}
+
+@media screen and (orientation: portrait){
+
+	CSS RETRATO
+
+}
+
+@media screen and (orientation: landscape){
+
+	CSS PAISAGEM
+	
+}
+</style>
+
+
+
+
+
+Comando para media feature no msm stylesheet:
+na tag head:
+<link rel="stylesheet" href="estilos/style.css">
+
+na folha de css:
+
+@media all{
+
+	CSS Geral
+
+}
+
+@media screen and (orientation: portrait){
+
+	CSS retrato
+
+}
+
+@media screen and (orientation: landscape){
+
+	CSS Landscape
+
+}
+
