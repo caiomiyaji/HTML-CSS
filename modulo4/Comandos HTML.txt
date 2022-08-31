@@ -454,12 +454,23 @@ Ex:
 
 
 
+Obs:Media Query é a junção de Media Type (tipo de midia) e Media Feature (característica de tela, orientação)
 
 
-Comando para definir diferentes CSS para cada Media Type:
+
+
+Comando para definir diferentes CSS para cada Media Type (impressora, tela, etc):
 na tag <head>:
 
 <link rel="stylesheet" href="estilos/tela.css" media="screen">            ->   CSS que será aplicado a telas
 <link rel="stylesheet" href="estilos/impressora.css" media="print">       ->   CSS que será aplicado a impressao
 
 
+
+
+Comando para definir CSS para media features (orientação do dispositivo):
+
+na tag <head>:
+<link rel="stylesheet" href="estilos/style.css" media="all">
+<link rel="stylesheet" href="estilos/retrato.css" media="screen and (orientation: portrait)">
+<link rel="stylesheet" href="estilos/paisagem.css" media="screen and (orientation: landscape)">
