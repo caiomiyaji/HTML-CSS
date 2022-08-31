@@ -452,3 +452,14 @@ Ex:
         }
     </script>
 
+
+
+
+
+Comando para definir diferentes CSS para cada Media Type:
+na tag <head>:
+
+<link rel="stylesheet" href="estilos/tela.css" media="screen">            ->   CSS que será aplicado a telas
+<link rel="stylesheet" href="estilos/impressora.css" media="print">       ->   CSS que será aplicado a impressao
+
+
